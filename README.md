@@ -11,7 +11,7 @@ By applying web scraping techniques and parsing HTML documentation from Coursicl
 
 ## How to Use
 
-1. Open your preferred code editor and navigate to the `cd Coursicle\coursicle` directory
+1. Open your preferred code editor and navigate to the `cd Coursicle\coursicle` to enter directory
 2. Activate the virtual environment by running: `venv/scripts/activate` (If not working, use: `Unblock-File -Path ".\venv\Scripts\Activate.ps1"`)
 3. Install the required libraries by running: `pip install -r requirements.txt`
 4. Run grabing: `py grabing.py`

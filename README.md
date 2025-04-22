@@ -9,7 +9,7 @@ By applying web scraping techniques and parsing HTML documentation from Coursicl
 
 ![image](https://github.com/user-attachments/assets/eeee9b19-54d5-42bc-8e00-976d3a811edc)
 
-## How to Use
+### How to Use
 
 1. Open your preferred code editor and navigate to the `cd Coursicle\coursicle` to enter directory
 2. Activate the virtual environment by running: `venv/scripts/activate` (If not working, use: `Unblock-File -Path ".\venv\Scripts\Activate.ps1"`)
@@ -17,6 +17,6 @@ By applying web scraping techniques and parsing HTML documentation from Coursicl
 4. Run grabing: `py grabing.py`
 5. Enter course name (abbreviated) and course number
 
-## Bugs / Warnings
+### Bugs / Warnings
 
 The default is set to Binghamton University, so you can change it if you'd like. Also, use the appropriate course name and number as it uses a url to pull the information, meaning a non-existent url will result in an error. You cannot repeatedly use this as coursicle has a captcha set up, which my program isn't designed to bypass. Repeatedly doing this may bypass Coursicle's Terms of Service, so I advice not to do this. Consider the ethics before you continue. 
